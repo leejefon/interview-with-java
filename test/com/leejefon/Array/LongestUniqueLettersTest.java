@@ -7,6 +7,6 @@ import junit.framework.TestCase;
  */
 public class LongestUniqueLettersTest extends TestCase {
     public void testString() throws Exception {
-        assertNotNull(true);
+        assertEquals(3, LongestUniqueLetters.exec("abcabcbb"));
     }
 }
